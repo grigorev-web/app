@@ -8,7 +8,8 @@ function App() {
 
   let domain = "http://dm2grig.mart-shop.ru";
   let path = "/wp-admin/admin-ajax.php";
-  let ajaxUrl = process.env.NODE_ENV == "development" ? domain + path : path;
+  //let ajaxUrl = process.env.NODE_ENV == "development" ? domain + path : path;
+  let ajaxUrl = domain + path;
 
   const [data, setData] = React.useState({
     loading: false,
