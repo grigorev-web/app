@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>result:{process.env.NODE_ENV} ver: 0.2</p>
+      <p>result:{process.env.NODE_ENV} ver: 0.3</p>
       <button onClick={dgLoader}>load</button>
       <p>status:{data.loading ? "loading..." : ""}</p>
       <h2>Новости</h2>
